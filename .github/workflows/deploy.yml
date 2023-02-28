@@ -6,9 +6,9 @@ on: push
 env:
   applicationfolder: spring-boot-hello-world-example
   AWS_REGION: us-east-1
-  S3BUCKET: mystack-webappdeploymentbucket-1tsb86sbjivpy 
-  aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  S3BUCKET: gw-stack-webappdeploymentbucket-knyrdwfsflox 
+  #aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  #aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
 jobs:
   build:
