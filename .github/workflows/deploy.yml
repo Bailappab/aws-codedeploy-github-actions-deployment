@@ -6,12 +6,12 @@ on: push
 env:
   applicationfolder: spring-boot-hello-world-example
   AWS_REGION: us-east-1
-  S3BUCKET: gw-stack-webappdeploymentbucket-1c0b1zi8gzoie 
+  S3BUCKET: gw-stack-webappdeploymentbucket-gk7iohft8qwx 
   
 
 jobs:
   build:
-    name: Build and Package
+    name: Builds and Package
     runs-on: ubuntu-20.04
     permissions:
       id-token: write
